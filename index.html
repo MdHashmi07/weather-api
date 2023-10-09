@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container my-5 d-flex justify-content-center justify-content-md-between  align-items-center ">
+        <a href="#"><img src="images/upload-icon.svg" alt="upload icon" class="icon"></a>
+        <input type="text" placeholder="Enter any Location"
+            class="fs-4 px-md-5  border border-0 text-white fw-bold mt-2 text-center input-box" id="inputBox">
+        <a href="#" class="mt-2"><img src="images/notification.svg" alt="notification icon" class="icon"></a>
+    </div>
+    <div class="d-flex flex-column justify-content-center align-items-center mt-5 mx-5">
+        <div class="text-white fw-semibold mb-sm-4 text-center location" id="PlaceName"></div>
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 mx-auto">
+            <img src="" id="weatherImage">
+            <div class="d-flex flex-column">
+                <h2 class="text-white px-2  text-center text-md-start loc-temp"><span id="temperature"></span></h2>
+                <p class="text-white weather-content"><span id="feelsLike"></span></p>
+            </div>
+        </div>
+        <p class="text-white fs-3 text-center weather-description mt-3">Make the most of this nice weather that I
+            generated for you. or else.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

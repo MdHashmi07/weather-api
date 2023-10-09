@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3937fa;
+    font-family: 'Quicksand', sans-serif !important;
+
+}
+
+.icon {
+    height: 2rem;
+}
+
+input {
+    background-color: #3937fa !important;
+}
+
+.input-box:focus {
+    outline: none;
+}
+
+.location {
+    font-size: 3rem;
+}
+
+.weather-img {
+    height: 13rem;
+    width: 13rem;
+}
+
+.loc-temp {
+    font-size: 4rem;
+    margin-bottom: 0px;
+
+}
+
+.weather-content {
+    font-size: 2rem;
+    color: #7abfff !important;
+}
+
+.weather-description {
+    width: 20rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.error-font-size {
+    font-size: 3rem;
+}
+
+.error-img {
+    width: 15rem;
+    height: 15rem;
+}
+
+
+@media screen and (min-width:425px) {
+    .font-size {
+        font-size: 3rem !important;
+    }
+
+    .icon {
+        height: 3rem;
+    }
+
+    .weather-description {
+        width: 25rem;
+    }
+    .error-img {
+        width: 20rem;
+        height: 15rem;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .icon {
+        height: 4rem;
+    }
+
+    .input-box {
+        padding: 1rem;
+        width: 25rem;
+        font-size: 2rem !important;
+    }
+
+    input::placeholder {
+        font-size: 2rem;
+    }
+
+    .weather-description {
+        width: 30rem;
+    }
+    .error-img {
+        width: 25rem;
+        height: 20rem;
+    }
+}
